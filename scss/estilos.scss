@@ -1,0 +1,34 @@
+$colorhover: rgb(194, 250, 250);
+$colorbghover: silver;
+$tletra: "Funzzy Bubbles" , cursive;
+$tletrap: "Inter", sans-serif;
+$tamap: 25px;
+
+.ir-a{
+    font-family: $tletrap;
+    font-weight: 700;
+    font-size: 20px;
+    &.ir-a:hover{
+        color: $colorhover;
+        background-color: $colorbghover;
+    }
+}
+
+.titulo{
+    font-family: $tletra; 
+    font-weight: 700;
+}
+
+.img-bt{
+    width: 350px;
+    height: 300px;
+}
+
+.texto{
+    font-family: $tletrap;
+    font-size: $tamap;
+}
+
+.texto-2{
+    @extend .texto;
+}
