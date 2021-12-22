@@ -1,7 +1,6 @@
 {
   "name": "desafio13",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build-css": "node-sass --include-path scss scss/estilos.scss css/estilos.css",
@@ -13,5 +12,15 @@
   "dependencies": {
     "node-sass": "^7.0.0",
     "nodemon": "^2.0.15"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Diego-F-Valencia-M/desafio-sass.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Diego-F-Valencia-M/desafio-sass/issues"
+  },
+  "homepage": "https://github.com/Diego-F-Valencia-M/desafio-sass#readme",
+  "description": ""
 }
